@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header"> 
+                <div class="header-text">
+                    <div class="logoContainer">
+                        <img src='/images/logo.png' class="logo" />
+                         <h1>Your watchlist</h1>
+                    </div>
+                    <div class="iconsContainer">
+                        <img src='/images/film.svg' class="icons" />
+                        <button id="watchlist-button" class="watchlist-button">
+                        <a  href="index.html">Search for movies</a></button>
+                    </div>
+            </div>
+            </header>
+            <main class="movies-el" id="watchlist-movies-el"> 
+                <section id="watchlist-feed" class="watchlist-feed">
+                    <div class="watch-el" id="watch-el">
+                    </div>
+                </section>
+            </main>
+        </div>
+       <script src="watchlist.js" type="module"></script>
+    </body>
+</html>

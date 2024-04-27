@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>MoDB</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header"> 
+                <div class="header-text">
+                    <div class="logoContainer">
+                        <img src='/images/logo.png' class="logo" />
+                        <h1>Find your film</h1>
+                    </div>
+                    <div class="iconsContainer">
+                        <img src='/images/watchlist.svg' class="icons" />
+                        <button id="watchlist-button" class="watchlist-button"><a href="watchlist.html">Watchlist</a></button>
+                    </div>
+                 </div>
+                <form id="search-form" class="search-form">
+                    <input type="search" id="search-input" name="search-field" class="search-input" placeholder="Search for a movie"/>
+                    <button type="submit" class="search-button" id="search-btn">Search</button>
+                </form>
+            </header>
+                <main> 
+                <section id="feed" class="feed">
+                    <div class="explore-el" id="explore-el">
+                        <img src="images/start-exploring.png" id="explore-img" class="explore-img">
+                        <p>Start exploring</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
