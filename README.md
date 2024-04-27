@@ -1,7 +1,7 @@
 # MoDB
 
 
-![image](screenshots/mobd.png)
+![image](screenshots/modb.png)
 
 
 ## Description
